@@ -16,6 +16,7 @@ To use the dataset, read it with the following python code (or any equivalent in
 
 ```python
 import pandas as pd
+import numpy as np
 
 images = np.fromfile('./data/shadow=0.9/images.bin', dtype=np.bool)
 indices = pd.read_csv('./data/indices.csv')
