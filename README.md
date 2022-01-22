@@ -1,6 +1,6 @@
 # Binary Shadowed MNIST
  
-This repository is meant to provide a version of MNIST dataset, which is shadowed by some percentages with randomly cerated masks.
+This repository is meant to provide a version of MNIST dataset, which is shadowed by some percentages with randomly created masks.
 
 ## Creation
 To recreate the dataset, run 
