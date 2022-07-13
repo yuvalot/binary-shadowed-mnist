@@ -18,6 +18,6 @@ To use the dataset, read it with the following python code (or any equivalent in
 import pandas as pd
 import numpy as np
 
-images = np.fromfile('./data/shadow=0.9/images.bin', dtype=np.bool)
+images = np.fromfile('./data/train/shadow=0.9/images.bin', dtype=np.bool)
 indices = pd.read_csv('./data/indices.csv')
 ```
